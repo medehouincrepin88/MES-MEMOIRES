@@ -1,0 +1,523 @@
+%
+% File: chap01.tex
+% Author: Victor F. Brena-Medina
+% Description: Introduction chapter where the biology goes.
+%
+\let\textcircled=\pgftextcircled
+\chapter{PRÉSENTATION DES RÉSULTATS ET DISCUSSIONS }
+\label{chap:resultats}
+
+Ce chapitre présente et interprète les principaux résultats issus des analyses statistiques réalisées sur les données de l’essai MODERATO. Il commence par une analyse descriptive des caractéristiques sociodémographiques et cliniques de l’échantillon, permettant de décrire les profils des participants et leur répartition selon les bras thérapeutiques. Cette première étape est suivie d’une analyse comparative de l’évolution pondérale au cours du suivi. Enfin, le chapitre expose les résultats des modèles estimés, visant à identifier les facteurs associés à la prise de poids chez les participants de l’étude.
+
+\section{Caractéristiques des patients et évolution pondérale}
+
+
+\subsection{Caractéristiques des patients inclus dans l’étude }
+
+
+
+Le tableau \ref{tab:caract_unibiv}  présente les caractéristiques sociodémographiques et cliniques des 320 patients sous bithérapie, répartis de manière équitable entre les deux bras thérapeutiques : ATV/r + 3TC DTG + 3TC, avec 160 participants dans chacun.\vspace{0.4cm}
+
+L’analyse univariée permet de décrire les caractéristiques des participants avant toute comparaison entre les bras thérapeutiques. Concernant la répartition géographique, la majorité des participants étaient originaires de la Côte d’Ivoire (69\%), suivis par le Burkina Faso (21\%) et le Cameroun (10\%). Au niveau du sexe, les femmes représentaient 76\% de l’échantillon et les hommes 24\%. L’âge médian des participants est de 52 ans, avec des âges s’étendant de 26 à 78 ans. \vspace{0.2cm}
+
+L'analyse des paramètres cliniques et biologiques montre que les participants présentaient, en moyenne, un bon état immunitaire. Le nadir CD4 médian était de 278 cellules/mm$^3$, indiquant que la plupart des patients avaient déjà connu une baisse significative des lymphocytes CD4, bien que certains aient conservé un niveau très bas (36 cellules/mm$^3$) et d'autres un niveau élevé (jusqu'à 1141 cellules/mm$^3$). Le CD4 à l'inclusion était plus élevé, avec une médiane de 653 cellules/mm$^3$ et des valeurs comprises entre 91 et 2000 cellules/mm$^3$, reflétant une récupération immunitaire importante pour certains patients avant l’inclusion dans l’étude.
+
+
+
+\begin{table}[H]
+	\centering
+	\footnotesize
+	\caption{Caractéristiques des participants en analyse univariée et bivariée}
+		\setlength{\tabcolsep}{0.1pt}
+		\renewcommand{\arraystretch}{1.3}
+	\resizebox{\linewidth}{!}{
+		\begin{tabular}{l ccc}
+			\toprule
+			\textbf{Variable} & \textbf{Univariée ($N = 320^1$)} & \multicolumn{2}{c}{\textbf{Bras thérapeutique}} \\
+			\cmidrule(lr){3-4}
+			& & \textbf{ATV/r + 3TC ($N = 160^1$)} & \textbf{DTG + 3TC ($N = 160^1$)} \\
+			\midrule
+			
+			\rowcolor[HTML]{EDEDED}  	\textbf{Pays} & & & \\
+			\hspace{3mm}Côte d'Ivoire & 220 (69\%) & 111 (50\%) & 109 (50\%) \\
+			\hspace{3mm}Burkina Faso & 68 (21\%) & 34 (50\%) & 34 (50\%) \\
+			\hspace{3mm}Cameroun & 32 (10\%) & 15 (47\%) & 17 (53\%) \\
+			
+			\rowcolor[HTML]{EDEDED}  \addlinespace
+			\textbf{Sexe} & & & \\
+			\hspace{3mm}Féminin & 244 (76\%) & 121 (50\%) & 123 (50\%) \\
+			\hspace{3mm}Masculin & 76 (24\%) & 39 (51\%) & 37 (49\%) \\
+			
+			\rowcolor[HTML]{EDEDED} \addlinespace
+		\textbf{Âge} (\textit{années}) & 52 (48 -- 59) &52 (47 -- 58) & 52 (48 -- 59) \\
+		& [26, 78] & [30, 78] & [26, 78] \\
+			
+			\rowcolor[HTML]{EDEDED} \addlinespace
+			\textbf{Nadir CD4 }($cellules/mm^3$) & 278 (179--413) & 286 (177--419) & 273 (180--387) \\
+			& [36--1141] & [91--1141] & [36--1029] \\
+			
+			\rowcolor[HTML]{EDEDED} \addlinespace
+			\textbf{CD4 à l'inclusion } ($cellules/mm^3$) & 653 (472--855) & 655 (459--837) & 647 (487--893) \\
+			& [91--2000] & [91--1855] & [127--2000] \\
+			
+			\rowcolor[HTML]{EDEDED} \addlinespace
+			\textbf{Durée du TARV} \textit{( années )}& 9.0 (5.0--13.0) & 9.0 (5.0--13.0) & 9.0 (5.0--12.5) \\
+			& [2--21] & [2--21] & [2--20] \\
+			
+			\rowcolor[HTML]{EDEDED} \addlinespace
+			\textbf{CV à l'inclusion} ($copies/ml$) & 20 (20--20) & 20 (20--20) & 20 (20--24) \\
+			& [0--148] & [0--148] & [0--79] \\
+			
+			\rowcolor[HTML]{EDEDED} \addlinespace
+			\textbf{Poids à l'inclusion} ($kg$) & 69 (58--79) & 68 (57--78) & 70 (60--79) \\
+			& [37--138] & [37--111] & [39--138] \\
+			
+			\bottomrule
+			\multicolumn{4}{l}{\footnotesize 1 n (\%); \hspace{0.1cm} Médiane (Q1--Q3) \newline ; \hspace{0.1cm} [Min--Max]}
+	\end{tabular}}\vspace{0.2cm}
+	\label{tab:caract_unibiv} 
+		{\small \textbf{\underline{\textit{Source}}} : Calculs de l'auteur }
+\end{table}
+
+
+
+
+
+
+ %\vspace{0.3cm}
+
+
+La durée médiane du TARV, soit la durée écoulées depuis le premier traitement jusqu'à l'inclusion dans l'essai, était de 9 ans, avec des valeurs allant de 2 à 21 ans. Cela reflète que la cohorte était globalement expérimentée en termes de traitement antirétroviral. La charge virale à l'inclusion, très faible (médiane de 20 copies/ml, extrêmes de 0 à 148 copies/ml), indique que la majorité des participants avaient une réplication virale contrôlée au moment de l'inclusion. Enfin, le poids des participants présentait une médiane de 69 kg, avec des valeurs comprises entre 37 et 138 kg, reflétant une variabilité individuelle importante, probablement liée à la diversité corporelle et aux effets antérieurs de la maladie ou du traitement.
+\vspace{0.2cm}
+
+
+
+L’analyse bivariée, qui compare les caractéristiques des participants selon le bras thérapeutique, montre que les deux groupes étaient globalement équilibrés. La répartition par pays et par sexe était quasiment équivalente entre ATV/r + 3TC et DTG + 3TC. De même, les distributions du poids, des CD4, de la charge virale et de la durée du TARV étaient très proches dans les deux bras, ce qui suggère une bonne comparabilité initiale et renforce la validité interne de l’étude pour évaluer les effets des stratégies thérapeutiques examinées.
+
+\subsection{Analyse comparative selon le sexe }
+
+Les femmes étaient légèrement plus jeunes que les hommes (âge médian 52,0 vs 55,5 ans, p < 0,001) et présentaient un IMC initial et un taux de CD4 plus élevés (IMC 25,8 vs 23,7, CD4 680,5 vs 570, p = 0,002 pour les deux), suggérant un état nutritionnel et immunitaire initial plus favorable. Le poids initial, la durée de TARV et le type de régime thérapeutique n’étaient pas significativement différents entre les sexes. Après 96 semaines, les femmes étaient significativement plus nombreuses à présenter un gain de poids $\geq$\% (50,4\% vs 31,6\%, p = 0,004).
+
+\begin{table}[H]
+	\centering
+	\caption{Caractéristiques des participants selon le sexe}
+		\setlength{\tabcolsep}{10pt} % Espacement horizontal
+	\renewcommand{\arraystretch}{1.3} % Espacement vertical
+	\resizebox{\linewidth}{!}{
+	\begin{tabular}{lccc}
+		\hline
+		\textbf{Caractéristique} & \textbf{Masculin (N = 76)} & \textbf{Féminin (N = 244)} & \textbf{p-value} \\
+		\hline
+	Âge (médian) & 55.5 & 52.0 & <0.001 \\
+		\rowcolor[HTML]{EDEDED}	Poids initial (médian) & 70.0 & 68.0 & 0.14 \\
+	IMC initial (médian) & 23.7 & 25.8 & 0.002 \\
+		\rowcolor[HTML]{EDEDED} CD4 à l'inclusion (médiane) & 570.0 & 680.5 & 0.002 \\
+		Durée TARV (médiane) & 8.5 & 9.0 & 0.6 \\
+		\hline
+	\rowcolor[HTML]{EDEDED}	\multicolumn{4}{l}{\textbf{Gain $\geq$ 5\% à S96}} \\
+		\quad Non & 52 (68.4\%) & 121 (49.6\%) & 0.004 \\
+		\quad Oui & 24 (31.6\%) & 123 (50.4\%) & \\
+		\hline
+	\rowcolor[HTML]{EDEDED}	\multicolumn{4}{l}{\textbf{Régime}} \\
+		\quad DTG + 3TC & 39 (51.3\%) & 121 (49.6\%) & 0.8 \\
+		\quad ATV/r + 3TC & 37 (48.7\%) & 123 (50.4\%) & \\
+		\hline
+	\end{tabular}}
+	\label{tab:caracteristiques}
+	{\small \textbf{\underline{\textit{Source}}} : Calculs de l'auteur }
+\end{table}
+
+
+
+
+\subsection{Évolution pondérale au cours du suivi }
+
+
+Cette analyse évalue l’évolution moyenne du poids des patients, définie comme la variation par rapport au poids initial mesuré à l’inclusion. Elle permet de comparer la progression du poids selon les deux régimes de bithérapie, à différentes visites, tout au long des 96 semaines de suivi.\vspace{0.3cm}
+
+Au cours des premières semaines de suivi, les gains de poids étaient similaires entre les deux bras thérapeutiques, reflétant une évolution comparable à court terme. À partir de la semaine 24, les différences entre les groupes deviennent plus marquées. Les participants sous DTG + 3TC présentent une augmentation moyenne plus importante que ceux du bras ATV/r + 3TC, avec des écarts qui persistent jusqu'à la fin de l'étude : par exemple à la semaine 48, les gains moyens sont respectivement +3,05 kg et +2,30 kg, à la semaine 84, +4,08 kg et +2,66 kg, et à la semaine 96, +3,87 kg et +2,66 kg. \vspace{0.1cm}
+
+Ainsi, l'analyse comparative souligne que, si les deux stratégies favorisent une prise de poids progressive, le bras DTG + 3TC est associé à des gains plus importants à moyen et long terme, et que cette différence moyenne est estimée à +1,22 kg (p = 0,043) à la fin du suivi.
+
+
+\begin{figure}[H]
+	\centering
+	\caption{Variation moyenne du poids depuis l'inclusion (kg)}
+	\includegraphics[width=1.1\textwidth]{variation_poids.png}\\
+	\label{fig:suivi}
+	{\small \textbf{\underline{\textit{Source}}} : Calculs de l'auteur}
+\end{figure}
+
+
+ 
+
+\vspace{0.5cm}
+
+
+\section{Résultats des estimations}
+
+Cette section présente les résultats d’un modèle linéaire mixte pour évaluer l’évolution moyenne du poids dans le temps, d’une analyse de survie de Kaplan-Meier  qui estime la probabilité temporelle de rester en dessous du seuil 5\% de prise de poids, offrant une description visuelle et comparative des délais d’apparition de l’événement selon les groupes. Enfin le modèle de régression de Cox à risques proportionnels quantifie l’impact des facteurs explicatifs sur le risque instantané de prise de poids de 5\%.
+
+
+
+
+\subsection{Modèle mixte pour mesures répétées}
+
+\subsubsection{Adéquation du modèle}
+
+
+Tout comme un modèle linéaire classique, de nombreuses hypothèses doivent être vérifiées pour valider un modèle mixte et s'assurer qu'il ne nous conduise pas à des conclusions erronées. 
+
+\newpage
+
+
+\begin{itemize}[label=\textbullet] % classique
+	\item	\textbf{Valeurs influentes}
+\end{itemize} %\vspace{0.2cm}
+
+
+
+La présence de valeurs influentes a été examinée à l’aide du test de Grubbs appliqué aux résidus normalisés du modèle. Une procédure itérative a permis d’identifier et d’exclure les observations extrêmes (p-value < 0{,}05). Au total, 19 valeurs influentes ont été supprimées, représentant 0{,}59\,\% des observations, afin de renforcer la robustesse du modèle final (Tableau~\ref{tab:influents}). \\
+
+
+\begin{itemize}[label=\textbullet] % classique
+	\item	\textbf{Normalité des résidus et des effets aléatoires}
+\end{itemize} %\vspace{0.2cm}
+
+
+
+Les tests de normalité, tels que Shapiro-Wilk ou Jarque-Bera, sont très sensibles à la taille de l’échantillon et rejettent souvent l’hypothèse de normalité pour de grands volumes de données. Dans notre étude, qui porte sur 320 individus suivis sur dix visites (soit 3 200 observations), nous avons donc opté pour une vérification graphique des résidus, jugée plus pertinente. Comme l’indiquent \textcite{lumley2002importance, verbeke2000linear}, au-delà de 500 observations les intervalles de confiance et tests restent fiables, et de légères déviations à la normalité n’affectent pas la validité des modèles mixtes. (Figure~\ref{fig:residusA}). \vspace{0.2cm}
+
+La normalité des effets aléatoires a été évaluée à l’aide du profil de vraisemblance (profiling). Le graphique obtenu montre une relation linéaire, indiquant que l’hypothèse de normalité des effets aléatoires est raisonnablement respectée  (Figure~\ref{fig:aleatoire}).\\
+
+
+
+
+
+
+\begin{itemize}[label=\textbullet] % classique
+	\item	\textbf{Homoscédasticité des résidus}
+\end{itemize} %\vspace{0.2cm}
+
+L’examen du graphique des résidus standardisés en fonction des valeurs ajustées montre une dispersion aléatoire autour de zéro, sans motif systématique. Cela indique que la variance des résidus est approximativement constante, confirmant que l’hypothèse d’homoscédasticité est respectée dans le modèle (Figure \ref{fig:perf}).\vspace{0.4cm}
+
+\begin{itemize}[label=\textbullet] % classique
+	\item	\textbf{Qualité d’ajustement du modèle}
+\end{itemize} %\vspace{0.2cm}
+
+
+
+
+
+
+Afin d’évaluer la qualité d’ajustement du modèle, deux types de coefficients de détermination ont été calculés. Le $R^2$ marginal s’élève à 0,0531, indiquant que 5,2\% de la variance du poids est expliquée par les effets fixes du modèle. Le $R^2$ conditionnel, quant à lui, atteint 0{,}9932, ce qui montre qu’en tenant compte des effets fixes et aléatoires, le modèle explique 99,32\% de la variance.
+
+
+\subsubsection{Interprétation du modèle mixte pour mesures répétées}
+
+
+Les résultats du modèle linéaire mixte révèlent plusieurs tendances importantes concernant l’évolution du poids des patients. \vspace{0.4cm}
+
+
+Le modèle linéaire mixte met en évidence une augmentation significative du poids au cours du temps. L'effet positif de la variable \textit{\textbf{100\_Jours}} (estimate = 0,360 ; \textit{p} < 0,001) indique que, pour le bras de ATV/r + 3TC, chaque 100 jours écoulé depuis l'inclusion est associé à une augmentation moyenne de 360 grammes du poids corporel (+1,32 kg/an), toutes choses égales par ailleurs. \vspace{0.2cm}
+
+
+
+
+Au début de l'étude, les patients sous DTG + 3TC avaient un poids moyen inférieur de 2,065 kg par rapport au groupe ATV/r + 3TC. Cependant, cette différence n'est pas statistiquement significative (p = 0,205), ce qui signifie que les deux groupes étaient comparables à l’inclusion. Ce résultat était attendu étant donné que les deux stratégies de traitement antirétroviral ont été randomisées à l'inclusion. \vspace{0.2cm}
+
+Par contre, l'évolution du poids diffère signification selon les bras. Si les patients sous ATV/r + 3TC prennent en moyenne 360 grammes  chaque 100 jours, ceux sous DTG + 3TC prennent en moyenne 553 grammes chaque 100 jour (2,02kg/an). Ce gain supplémentaire est mis en évidence par l’interaction \textit{\textbf{100 jours}} × \textit{\textbf{Schéma}} (estimate = 0,193 ; \textit{p} = 0,021). Autrement dit, la vitesse de prise de poids par 100 jour sous DTG + 3TC est supérieure de 193 grammes par rapport au bras ATV/r + 3TC. L'effet différentiel annuel est donc de 704,45 grammes/an. 
+
+
+\begin{table}[H]
+	\centering
+	\caption{Résultats du modèle linéaire mixte hétérogène pour le poids}
+	\label{tab:hlmm_poids}
+	\setlength{\tabcolsep}{10pt} % Espacement horizontal
+	\renewcommand{\arraystretch}{1.1} % Espacement vertical
+	\resizebox{\linewidth}{!}{
+		\begin{tabular}{l r r r}
+			\toprule
+			\textbf{Paramètre} & \textbf{Estimate} & \textbf{SE} & \textbf{p-value} \\
+			\midrule
+			\rowcolor[HTML]{D9D9D9} \multicolumn{4}{l}{\textbf{Effets fixes}} \\
+			Intercept & 75.575 & 5.980 & \textbf{0.000} \\
+			100 Jours & 0.360 & 0.059 & \textbf{0.000} \\
+			\rowcolor[HTML]{F2F2F2}
+			Schéma thérapeutique (\textit{réf.: ATV/r + 3TC}) & & & \\
+			\quad \textit{DTG + 3TC} & -2.065 & 1.628 & 0.205 \\
+			\rowcolor[HTML]{F2F2F2}
+			Sexe (\textit{réf.: Masculin}) & & & \\
+			\quad \textit{Féminin} & -3.440 & 1.958 & 0.079 \\
+			\rowcolor[HTML]{F2F2F2}
+			Âge & -0.028 & 0.102 & 0.784 \\
+			CD4 dernier (cellules/mm$^3$) & 0.006 & 0.003 & \textbf{0.016} \\
+			\rowcolor[HTML]{F2F2F2}
+			Durée TARV (années) & -0.531 & 0.191 & \textbf{0.006} \\
+			100 jours × Schéma (DTG + 3TC) & 0.193 & 0.084 & \textbf{0.021} \\
+			\midrule
+			\rowcolor[HTML]{D9D9D9} \multicolumn{4}{l}{\textbf{Effets aléatoires}} \\
+			Variance intercept & 196.073 & & \\
+			Variance pente (Jour\_100) & 0.062 & & \\
+			Covariance intercept-pente & 0.401 & & \\
+			\midrule
+			\rowcolor[HTML]{D9D9D9} \multicolumn{4}{l}{\textbf{Paramètres AR(1)}} \\
+			AR corrélation & 0.232 & 0.104 & \\
+			AR standard error & 3.711 & 0.727 & \\
+			\midrule
+			\rowcolor[HTML]{D9D9D9} \textbf{Erreur résiduelle standard} & 0.691 & 0.070 & \\
+			\rowcolor[HTML]{D9D9D9} \multicolumn{2}{l}{Nombre de sujets} & \multicolumn{2}{c}{320} \\
+			\rowcolor[HTML]{D9D9D9} \multicolumn{2}{l}{Nombre d'observations} & \multicolumn{2}{c}{3181} \\
+			\bottomrule
+	\end{tabular}}
+	{\small \textbf{\underline{\textit{\textit{Source}}}} : Calculs de l'auteur }
+\end{table}
+
+
+
+
+
+Par ailleurs, certaines caractéristiques cliniques influencent également le poids. Le taux de CD4 au dernier suivi est positivement associé au poids (estimate = 0,006 ; \textit{p} = 0,016), ce qui indique qu'une amélioration de 100~cellules/mm\textsuperscript{3} se traduit par un gain moyen de 0,60~kg, reflétant l'effet bénéfique d'une meilleure immunité sur le poids. À l'inverse, chaque année supplémentaire des traitements ARV avant l'inclusion à l'étude est associée à une diminution moyenne de 531 grammes du poids (estimate = -0,531 ; \textit{p} = 0,006), indépendamment des autres facteurs. Ces effets mettent en évidence que, au-delà du temps et du schéma thérapeutique, l'état immunitaire et la durée de traitement jouent un rôle important dans la dynamique du poids chez les patients suivis.\vspace{0.2cm}
+
+
+
+
+Les résultats relatifs aux effets aléatoires mettent en évidence l’importance de la variabilité interindividuelle dans l’évolution du poids des patients. En effet, la variance de l’intercept entre les patients (Variance intercept = 196,07) indique que certains patients commencent l’étude avec un poids beaucoup plus élevé ou beaucoup plus faible que d’autres. Cela justifie l’importance de prendre en compte ces différences individuelles dans le modèle afin de ne pas fausser l’estimation des effets des autres variables. À l’inverse, la variance de la pente du temps (Variance pente = 0,062) est faible, ce qui signifie que la vitesse à laquelle le poids évolue au fil des 100 jours est assez similaire d’un patient à l’autre. La corrélation positive entre l’intercept et la pente (Covariance intercept-pente = 0.401) montre que les patients qui ont un poids de départ plus élevé ont tendance à prendre un peu plus de poids au fil du temps, tandis que ceux qui commencent avec un poids plus faible peuvent avoir une augmentation moins rapide.\vspace{0.2cm}
+
+
+Le modèle intègre une corrélation autorégressive de premier ordre (AR(1)) afin de prendre en compte la dépendance entre les mesures répétées de poids pour un même individu au fil du temps. La corrélation estimée est de 0,232, ce qui indique une faible, mais non négligeable, corrélation entre deux mesures consécutives. En d’autres termes, le poids d’un individu à un moment donné reste légèrement lié à ses mesures précédentes, sans pour autant traduire une dépendance forte. Par ailleurs, l’erreur résiduelle standard, estimée à 0,691 kg, reflète l’écart moyen entre les poids observés et ceux prédits par le modèle. Cette valeur relativement faible suggère que le modèle décrit correctement les variations de poids et fournit des prédictions précises pour la majorité des individus suivis.\\
+
+
+Bien que l’analyse précédente ait permis de suivre l’évolution du poids au fil du temps, elle ne permet pas de repérer les patients qui dépassent un seuil critique (gain $\geqslant$ 5 \%), ni de quantifier précisément le risque que chaque individu présente cet événement.
+
+
+
+\subsection{Interprétation de la courbe de Kaplan-Meier}
+
+Cette première approche permet simplement de décrire le risque de survenue de l’événement, ici la prise de poids $\geqslant$ 5\%, au cours du suivi, en fonction des bras thérapeutique, sans tenir compte simultanément des effets des autres facteurs. \vspace{0.3cm}
+
+\begin{figure}[H]
+	\centering
+	\caption{Courbe de Kaplan-Meier }
+	\includegraphics[width=1\textwidth]{KM.png}\\
+	\label{fig:KM}
+			{\small \textbf{\underline{\textit{Source}}} : Calculs de l'auteur }
+\end{figure}
+
+
+
+
+La figure~\ref{fig:KM} de Kaplan-Meier montre que la probabilité de ne pas connaître l’événement, c’est-à-dire de ne pas atteindre un gain de poids $\geqslant$ 5\% du poids initial, chute beaucoup plus rapidement dans le bras de DTG + 3TC que dans le bras de ATV/r + 3TC. Cette observation suggère dès le départ que les patients sous DTG + 3TC présentent un risque plus précoce et plus élevé de prise de poids significative.  \vspace{0.2cm}
+
+
+Plus précisément, dans le bras de ATV/r + 3TC, à 4 semaines, environ 5\% des patients ont franchi le seuil de 5\% du poids initial. Ce pourcentage passe à 12\% à 8 semaines et à 33\% à 24 semaines, indiquant qu’un tiers des patients a pris $\geqslant$ 5\% de son poids initial à ce stade. Au fil du suivi, le pourcentage continue d’augmenter pour atteindre 65\% à 96 semaines. \vspace{0.2cm}
+
+
+En revanche, dans le groupe DTG + 3TC, la progression du risque est plus rapide. À 4 semaines, 8\% des patients ont déjà atteint le gain pondéral critique, et ce pourcentage grimpe à 18\% à 8 semaines et 38\% à 24 semaines. Au terme du suivi à 96 semaines, environ 72\% des patients ont franchi le seuil de 5\% du poids initial. 
+
+
+
+\subsection{Modèle de Cox multivarié}
+
+Pour aller plus loin et identifier les variables indépendamment associées au risque de prise de poids $\geqslant 5\%$, il est nécessaire de recourir à un modèle de régression de Cox multivarié. Ce modèle permet d’estimer l’effet de chaque facteur tout en tenant compte de l’influence des autres variables, offrant ainsi une compréhension plus fine des déterminants du risque chez les patients.
+
+
+\subsubsection{Adéquation du modèle}
+
+
+Avant d’interpréter les résultats du modèle de Cox multivarié, nous avons vérifié la validité de ses hypothèses sous-jacentes. En particulier, l’hypothèse de proportionnalité des risques (Figure~\ref{fig:sch}) et la log-linéarité (Figure~\ref{fig:log_linearite}).  
+
+%\begin{table}[H]
+%	\centering
+%	\caption{Test de proportionnalité des risques (Schoenfeld)}
+%	\label{tab:cox_zph_modele2}
+%	\begin{tabular}{lccr}
+%		\toprule
+%		\textbf{Variable} \hspace{2cm} &\hspace{2cm}  \textbf{Chi²} \hspace{2cm}  & \textbf{ddl} &  \hspace{2cm} \textbf{p-valeur}  \\
+%		\midrule
+%		\rowcolor[HTML]{EDEDED} Pays & 0,0252 & 2 & 0,99 \\
+%		Sexe & 0,9350 & 1 & 0,33 \\
+%		\rowcolor[HTML]{EDEDED} Régime & 0,2800 & 1 & 0,60 \\
+%		Poids à l'inclusion & 0,7432 & 1 & 0,39 \\
+%		\rowcolor[HTML]{EDEDED} Âge & 0,0629 & 1 & 0,80 \\
+%		CD4 à l'inclusion & 1,7540 & 1 & 0,19 \\
+%		\rowcolor[HTML]{EDEDED} Durée sous TARV & 0,6470 & 1 & 0,42 \\
+%		\rowcolor[HTML]{EDEDED} \textbf{Global} & \textbf{7,1380} & \textbf{8} & \textbf{0,52} \\
+%		\bottomrule
+%	\end{tabular}
+%\end{table}
+%
+%
+%Le test de proportionnalité des risques basé sur les résidus de Schoenfeld montre que l’ensemble des covariables incluses dans le modèle respecte l’hypothèse de risques proportionnels, comme en témoigne la non-significativité des valeurs p associées (toutes supérieures à 0,05). Le test global (p = 0,52) confirme également l’absence de violation de cette hypothèse. 
+
+
+
+\subsubsection{Interprétation du modèle de Cox }
+
+
+Premièrement, le sexe féminin apparaît comme un déterminant important. Les femmes présentent un risque significativement plus élevé de franchir le seuil critique de gain pondéral par rapport aux hommes, avec un hazard ratio (HR) de 1,52 , $p = 0,020$. Concrètement, cela signifie que, toutes choses étant égales par ailleurs, les femmes ont environ 52\% de probabilité en plus que les hommes de connaître une prise de poids significative d'au moins 5\% au cours du suivi.\vspace{0.2cm}
+
+
+Deuxièmement, le poids à l’inclusion joue un rôle protecteur. Avec un HR de 0,98, $p < 0,001$, chaque kilogramme supplémentaire au moment du début du traitement réduit d’environ 2\% le risque de prise de poids $\geqslant 5\%$. Cette relation inverse indique que les patients ayant un poids initial plus élevé sont moins susceptibles de franchir le seuil critique.\vspace{0.2cm}
+
+
+Troisièmement, le pays de suivi influence également le risque. Les patients suivis au Burkina Faso ont un hazard ratio (HR) de 1,40, $p = 0,041$, ce qui se traduit par une probabilité 40\% plus élevée, à tout moment du suivi, de franchir le seuil critique de gain pondéral par rapport aux patients suivis en Côte d’Ivoire, considérée comme référence. 
+
+
+
+\begin{figure}[H]
+	\centering
+	\caption{Modèle de Cox multivarié}
+	\includegraphics[width=1.1\textwidth]{Cox1.png}\\
+	\label{fig:Cox1}
+			{\small \textbf{\underline{\textit{Source}}} : Calculs de l'auteur }
+\end{figure}
+
+
+
+
+
+%\begin{table}[H]
+%	\centering
+%	\caption{Modèle de Cox multivarié}
+%	\begin{tabular}{l>{\raggedleft\arraybackslash}p{4.5cm}ccc}
+%		\toprule
+%		& \textbf{} & \hspace{1cm} \textbf{Hazard Ratio} & \hspace{1cm} \textbf{IC à 95\%} & \hspace{1cm} \textbf{p-valeur} \\
+%		\midrule
+%		
+%		\rowcolor[HTML]{EDEDED} \multicolumn{5}{l}{Pays} \\
+%		& \textit{Côte d'Ivoire (\textbf{réf.})} & 1.000 & -- & -- \\
+%		& \textit{Burkina Faso}        & 1.43  & [1.03 ; 1.98] & \textbf{0.035} \\
+%		& \textit{Cameroun}            & 1.14  & [0.71 ; 1.83] & 0.587 \\
+%		
+%		\rowcolor[HTML]{EDEDED} \multicolumn{5}{l}{Sexe} \\
+%		& \textit{Masculin (\textbf{réf.})}     & 1.000 & -- & -- \\
+%		& \textit{Féminin}             & 1.54  & [1.08 ; 2.20] & \textbf{0.020} \\
+%		
+%		\rowcolor[HTML]{EDEDED} \multicolumn{5}{l}{Bras thérapeutique} \\
+%		& \textit{ATV/r + 3TC (\textbf{réf.})} & 1.000 & -- & -- \\
+%		& \textit{DTG + 3TC}           & 1.23  & [0.94 ; 1.61] & 0.138 \\
+%		
+%		\rowcolor[HTML]{EDEDED} \multicolumn{5}{l}{Âge} \\
+%		& \textit{[26-50[ (\textbf{réf.})}     & 1.000 & -- & -- \\
+%		& \textit{[50-60[}             & 1.16  & [0.85 ; 1.59] & 0.345 \\
+%		& \textit{[60-78]}             & 1.33  & [0.90 ; 1.97] & 0.144 \\
+%		
+%		\rowcolor[HTML]{EDEDED} \multicolumn{5}{l}{Poids à J0} \\
+%		& \raggedleft                   & 0.98  & [0.97 ; 0.99] & < \textbf{0.001} \\
+%		
+%		\multicolumn{5}{l}{Nadir CD4} \\
+%		& \raggedleft                   & 1.00  & [1.00 ; 1.00] & 0.611 \\
+%		
+%		\rowcolor[HTML]{EDEDED} \multicolumn{5}{l}{Dernier CD4} \\
+%		& \raggedleft                   & 1.00  & [1.00 ; 1.00] & 0.494 \\
+%		
+%		\multicolumn{5}{l}{Durée TARV} \\
+%		& \raggedleft                   & 0.98  & [0.94 ; 1.01] & 0.212 \\
+%		
+%		\bottomrule
+%	\end{tabular}
+%\end{table}
+ 
+
+ 
+
+
+
+\section{Discussion des résultats et recommandations}
+
+Cette partie constitue le cadre d’interprétation de nos résultats et leur mise en perspective par rapport aux travaux existants sur les facteurs associés à la prise de poids chez les patients sous traitement antirétroviral (TARV). Elle vise à analyser les dynamiques observées dans l’essai MODERATO à la lumière des connaissances théoriques et empiriques recensées, tout en dégageant les implications cliniques et de santé publique de nos résultats.\vspace{0.2cm}
+
+Comme le souligne la littérature, la prise de poids chez les personnes vivant avec le VIH (PVVIH) sous TARV est un phénomène multifactoriel. Plusieurs études ont mis en évidence l’association des inhibiteurs de l’intégrase, en particulier le dolutégravir (DTG), avec des prises de poids significatives \parencite{bourgi2020greater, taramasso2020factors}. À l’inverse, d’autres molécules, comme l’efavirenz (EFV) ou le ténofovir disoproxil fumarate (TDF), ont souvent été associées à une limitation ou une stabilisation du poids \parencite{patel2024beyond, erlandson2021weight}. Par ailleurs, des facteurs individuels tels que le sexe féminin, un faible poids initial ou encore des différences contextuelles et géographiques sont souvent rapportés comme déterminants clés \parencite{sax2020weight, esber2022weight}.\vspace{0.2cm}
+
+Conformément à nos objectifs de départ, nous poursuivons la discussion en deux principaux volets. Le premier s’intéresse à l’analyse comparative des trajectoires pondérales selon les deux schémas de bithérapie (DTG+3TC vs. ATV/r+3TC). Le second examine les facteurs de risque associés à un gain de poids d’au moins 5\%, afin de mieux identifier les profils de patients nécessitant une surveillance métabolique renforcée.
+
+
+\subsection*{Analyse comparative des bras :  DTG+3TC vs. ATV/r+3TC}
+%
+L'une des questions centrales de notre étude concerne la différence de prise de poids entre les deux bras thérapeutiques. \\
+
+Nos résultats démontrent que le régime de dolutégravir + lamivudine (DTG+3TC) est associé à une prise de poids significativement plus importante que le régime d’atazanavir/ritonavir + lamivudine (ATV/r+3TC). Tout d'abord, dans une analyse comparative montrant l'évolution du gain moyen de poids selon le bras thérapeutique, on observe que les deux bras favorisent une prise de poids progressive soit un gain cumulé à la fin de l'étude de 2,66 kg et 3,87 kg respectivement sur le ATV/r+3TC et DTG+3TC.  Ce résultat témoigne de ce que le DTG+3TC est associé à des gains plus importants à long terme soit une différence moyenne significative de +1,22 kg (p=0.043) à la semaine 96. Plus en détail, l’analyse du modèle mixte montre que, dans le bras ATV/r+3TC, chaque 100 jours écoulé depuis l’inclusion s’accompagne d’une prise de poids moyenne de 360 grammes, soit environ 1,32 kg par an. En revanche, dans le bras DTG+3TC, la prise de poids est plus élevée, atteignant 553 grammes, soit environ 2,02 kg/an.  \vspace{0.3cm}
+
+Ces constats renforcent notre hypothèse initiale selon laquelle le schéma DTG + 3TC est associé à une prise de poids plus marquée par rapport au traitement ATV/r + 3TC. Ils s’inscrivent dans la lignée des études antérieures attribuant aux inhibiteurs de l’intégrase (INI), en particulier le dolutégravir, un effet pondérogène accru. Par exemple, \textcite{bourgi2020greater} rapporte une prise moyenne de 6,0 kg sous DTG à 18 mois, contre seulement 2,6 kg sous INNTI. L’étude de \textcite{shamu2024body}, menée au Zimbabwe, illustre parfaitement une situation comparable à la nôtre : en comparant directement les schémas DTG et ATV/r, les auteurs ont observé, après 24 mois de suivi, une prise de poids environ deux fois plus élevée sous DTG que sous ATV/r. \vspace{0.3cm}
+
+
+Ainsi, ces chiffres comparés à la nôtre témoigne que l’ampleur de la prise de poids observée dans notre étude est plus modérée que celle rapportée dans certaines autres études. Cette différence pourrait s’expliquer par des facteurs génétiques, nutritionnels ou environnementaux propres aux populations étudiées, mais également par le profil particulier des participants inclus dans notre étude. En effet, les patients de l’essai MODERATO étaient déjà sous traitement antirétroviral efficace et en suppression virologique depuis plus de deux ans. Or, dans la plupart des études, y compris celles mentionnées précédemment, les participants étaient soit des patients naïfs de traitement, soit un mélange de patients naïfs et déjà traités. Et, \textcite{taramasso2020factors} montre que la prise de poids sous DTG est souvent plus marquée chez les patients qui initient un traitement pour la première fois, c’est-à-dire les patients naïfs.
+
+ 
+\subsection*{Facteurs de risque associés à un gain de poids d’au moins 5\%}
+
+
+La seconde question centrale de notre étude concerne les facteurs de risque associés à un gain de poids d’au moins 5\%. \\
+
+
+A travers le modele de Cox, l'étude montre que chaque kilogramme supplémentaire au départ réduit de 2 \% le risque de prise de poids significative de 5\% du poids initial (HR = 0,98 ; p < 0,001). Ce résultat corrobore le phénomène de return-to-health et rejoint les observations d’\textcite{erlandson2021weight} et de \textcite{patel2024beyond}, qui ont montré que les patients avec un IMC initial bas étaient plus susceptibles de prendre du poids.\vspace{0.3cm}
+
+
+
+En plus du poids initial des patients, les facteurs associés à un risque de gain de poids $\geqslant 5\%$ par rapport au poids initial sont le sexe féminin, avec un hazard ratio (HR) de 1,52  (p = 0,020), et le Burkina, avec un HR de 1,40 (p = 0,041). En d’autres termes, les femmes présentent un risque accru de 52\% de franchir le seuil critique de gain pondéral de 5\% par rapport aux hommes, et que les patients suivis au Burkina Faso ont une probabilité 40\% plus élevée, à tout moment du suivi, de dépasser ce seuil par rapport aux patients suivis en Côte d’Ivoire. Ce résultat concernant les femmes, qui confirme notre deuxième hypothèse, a également été observé dans plusieurs études, dont \textcite{sax2020weight}, qui identifient le sexe féminin comme un facteur important de prise de poids sous traitement antirétroviral. Par ailleurs, la différence observée selon le pays pourrait s'expliquer par des disparités socio-économiques, des habitudes alimentaires régionales, ou des différences dans les systèmes de santé. 
+
+
+\subsection*{Autres résultats de l'étude}
+
+Au-delà de l'analyse comparative des traitements et des facteurs de risque, l'étude a fait émerger des conclusions importantes supplémentaires.\\ 
+
+Les résultats du modèle mixte ont permis de quantifier l'hétérogénéité interindividuelle dans la dynamique de prise de poids. Les résultats démontrent que la plus grande source de variation entre les patients provient de leur poids de départ  (variance intercept = 196,073), bien plus que de leur vitesse de prise de poids (variance pente = 0,062). Bien qu'une légère différence de rythme existe entre eux, celle-ci reste limitée. Ainsi, on observe que les patients, bien que débutant à des niveaux de poids très différents, tendent à prendre du poids de manière relativement similaire au cours du temps. \vspace{0.3cm}
+
+Par ailleurs, la corrélation positive entre l’intercept et la pente (0,401) montre que les patients ayant un poids de départ plus élevé ont tendance à prendre un peu plus de poids au fil du temps, tandis que ceux qui commencent avec un poids plus faible présentent une augmentation plus modérée. Ce résultat ne contredit pas l’observation précédente selon laquelle chaque kilogramme supplémentaire au départ réduit de 2\% le risque de prise de poids significative de 5 \% du poids initial. En effet, les patients plus lourds peuvent prendre davantage de poids en valeur absolue, mais cette prise reste proportionnellement moins importante par rapport à leur poids de départ, ce qui explique la diminution du risque de gain pondéral relatif observée. \vspace{0.3cm}
+
+
+Enfin, l’étude montre que chaque augmentation de 100 cellules/mm³ du nombre de CD4 correspond à un gain moyen d’environ 0,60 kg (estimate = 0,006; p = 0,016), confirmant ainsi le lien entre récupération immunitaire et prise de poids. À l’inverse, chaque année supplémentaire de traitement antirétroviral (ARV) est associée à une perte moyenne de  531 grammes (estimate = -0,531 ; p=0,006). En d’autres termes, les patients ayant moins d’années de traitement ARV tendent à prendre davantage de poids.  \\
+
+
+
+
+En synthèse, notre étude montre que la prise de poids sous TARV est influencée à la fois par le type de traitement et par des facteurs individuels tels que le sexe, le poids initial et le contexte géographique. Le schéma DTG+3TC est associé à une prise de poids plus marquée que l’ATV/r+3TC, et les résultats complémentaires mettent en évidence l’hétérogénéité interindividuelle ainsi que le rôle de la récupération immunitaire. \\
+
+
+Malgré l’intérêt des résultats obtenus et leur cohérence avec la littérature, il est important de souligner certaines limites méthodologiques et contextuelles de notre étude. Ces contraintes ouvrent également des pistes de réflexion et des perspectives.
+
+
+
+ 
+\section*{Limites et perspectives}
+
+\vspace{0.5cm}
+
+
+\begin{itemize}[label=\textbullet] % classique
+	\item	\textbf{{\large D'ordre méthodologique}}
+\end{itemize} \vspace{0.2cm}
+
+L’étude s’est appuyée sur deux méthodes adaptées aux données longitudinales : le modèle linéaire mixte et le modèle de Cox. Le modèle mixte a permis de décrire précisément l’évolution du poids des patients au cours du suivi, tandis que le modèle de Cox n’a pas intégré certaines informations essentielles. \vspace{0.2cm}
+
+En particulier, il ne prend en compte que le premier gain de 5 \% du poids initial, sans considérer les patients ayant atteint le gain 5\% à une visite donnée puis reste en dessous d'une augmentation de 5\% lors des visites suivantes, ou les patients dont le gain oscille autour de 5 \% au fil du suivi. De plus, il suppose que l’événement se produit exactement à la date de visite, alors que le design de notre étude ne permet pas de connaître les dates précises des variations de poids. Pour mieux modéliser cette incertitude temporelle, des modèles à observation censurée par intervalle sont aussi envisageables, car ils permettent d’estimer le moment de l’événement dans l’intervalle entre deux visites connues.   \vspace{0.2cm}
+
+Une perspective intéressante serait l’utilisation de modèles conjoints, qui permettent de combiner le suivi longitudinal (comme le modèle linéaire mixte) et l’analyse de survie (comme le modèle de Cox). Ces modèles conjoints (modèle à effets aléatoire partagés et modèle à classes latentes) offrent la possibilité d'explorer l'association entre l'évolution du poids et le risque d'un événement \parencite{commenges2015modeles}.\\
+
+
+
+
+\begin{itemize}[label=\textbullet] % classique
+	\item	\textbf{{\large D'ordre spécifique à l’étude}}
+\end{itemize}
+\vspace{0.2cm}
+
+Dans un premier temps, les facteurs comportementaux, tels que l’alimentation et l’activité physique, n’ont pas été pris en compte, alors qu’ils peuvent influencer la prise de poids. Dans un second temps, les critères stricts d’inclusion, notamment l’exclusion des patients ayant un nadir de CD4 inférieur à 100 cellules/mm³, limitent la généralisabilité des résultats aux populations les plus immunodéprimées. Toutefois, cette deuxième limite n’en est pas totalement une, car elle s’inscrit dans les normes des essais cliniques contrôlés, qui visent à assurer une meilleure homogénéité des participants selon certains critères pouvant biaiser l’efficacité des traitements.
+
+
+
+
+\newpage
+
+\section*{Recommandations}
+
+À la lumière de nos résultats, deux recommandations peuvent être formulées à destination des cliniciens, chercheurs et décideurs en santé publique : \vspace{0.4cm}
+
+\textbf{Suivi métabolique renforcé des femmes :} Cette population présente une susceptibilité accrue à une prise pondérale importante sous bithérapie. Un suivi rapproché du poids et de la composition corporelle est donc nécessaire afin de prévenir les complications associées. \vspace{0.2cm}
+	
+ \textbf{Intégration du poids initial dans la décision thérapeutique :} Les patients ayant un faible poids à l’inclusion devraient faire l’objet d’un suivi nutritionnel spécifique, afin de différencier un gain pondéral bénéfique d’une évolution vers le surpoids ou l’obésité. 
+
+
+
+

@@ -1,0 +1,46 @@
+\babel@toc {french}{}\relax 
+\contentsline {chapter}{DÉDICACES}{i}{chapter*.1}%
+\contentsline {chapter}{DÉCHARGE}{ii}{chapter*.2}%
+\contentsline {chapter}{REMERCIEMENTS}{iii}{chapter*.3}%
+\contentsline {chapter}{AVANT-PROPOS}{iv}{chapter*.4}%
+\contentsline {chapter}{SOMMAIRE}{v}{section*.5}%
+\contentsline {chapter}{SIGLES ET ACRONYMES}{vi}{chapter*.6}%
+\contentsline {chapter}{LISTE DES TABLEAUX}{vii}{section*.7}%
+\contentsline {chapter}{LISTE DES FIGURES}{viii}{section*.8}%
+\contentsline {chapter}{RÉSUME}{ix}{chapter*.9}%
+\contentsline {chapter}{ABSTRACT}{x}{chapter*.10}%
+\contentsline {chapter}{PRESENTATION DU CADRE DE STAGE}{xi}{chapter*.11}%
+\contentsline {chapter}{INTRODUCTION}{1}{chapter*.14}%
+\contentsline {chapter}{\chapternumberline {1}APPROCHE CONCEPTUELLE ET REVUE DE LITTÉRATURE}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Définitions des concepts clés}{5}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Revue de littérature}{7}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Impact des classes d’antirétroviraux sur la prise de poids}{7}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2} Facteurs individuels, contextuels et géographiques influençant la prise de poids}{9}{subsection.1.2.2}%
+\contentsline {chapter}{\chapternumberline {2}PRÉSENTATION DES DONNÉES ET MÉTHODOLOGIE}{12}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Présentation des données}{12}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Type de l’étude}{12}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Population d’étude }{13}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Schéma de suivi}{13}{subsection.2.1.3}%
+\contentsline {section}{\numberline {2.2}Présentation des principales variables d’intérêt de l’étude}{14}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Méthodologie de l’étude}{15}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Modèle linéaire à effets mixtes}{16}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Analyse de survie non paramétrique : méthode de Kaplan-Meier}{18}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Modèle de régression de Cox à risques proportionnels}{19}{subsection.2.3.3}%
+\contentsline {chapter}{\chapternumberline {3}PRÉSENTATION DES RÉSULTATS ET DISCUSSIONS }{23}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Caractéristiques des patients et évolution pondérale}{23}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Caractéristiques des patients inclus dans l’étude }{23}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Analyse comparative selon le sexe }{25}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Évolution pondérale au cours du suivi }{25}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Résultats des estimations}{26}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Modèle mixte pour mesures répétées}{26}{subsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.1}Adéquation du modèle}{26}{subsubsection.3.2.1.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.2}Interprétation du modèle mixte pour mesures répétées}{27}{subsubsection.3.2.1.2}%
+\contentsline {subsection}{\numberline {3.2.2}Interprétation de la courbe de Kaplan-Meier}{29}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Modèle de Cox multivarié}{30}{subsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.3.1}Adéquation du modèle}{31}{subsubsection.3.2.3.1}%
+\contentsline {subsubsection}{\numberline {3.2.3.2}Interprétation du modèle de Cox }{31}{subsubsection.3.2.3.2}%
+\contentsline {section}{\numberline {3.3}Discussion des résultats et recommandations}{32}{section.3.3}%
+\contentsline {chapter}{CONCLUSION}{37}{chapter*.42}%
+\contentsline {chapter}{BIBLIOGRAPHIE}{xiii}{section*.44}%
+\contentsline {chapter}{ANNEXE }{xviii}{appendix*.45}%
+\contentsline {chapter}{TABLE DES MATIERES}{xxix}{section*.51}%

@@ -1,0 +1,23 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'Crepin_MEDEHOUIN.blg'
+[155] biber-MSWIN64:340> INFO - === 
+[2181] Biber.pm:419> INFO - Reading 'Crepin_MEDEHOUIN.bcf'
+[2463] Biber.pm:979> INFO - Found 37 citekeys in bib section 0
+[2489] Biber.pm:4419> INFO - Processing section 0
+[2503] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[3043] bibtex.pm:1713> INFO - LaTeX decoding ...
+[3149] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
+[3838] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3838] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3838] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'fr-FR'
+[3838] Biber.pm:4245> INFO - No sort tailoring available for locale 'fr-FR'
+[4024] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[4024] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[4024] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'fr-FR'
+[4024] Biber.pm:4245> INFO - No sort tailoring available for locale 'fr-FR'
+[4156] bbl.pm:660> INFO - Writing 'Crepin_MEDEHOUIN.bbl' with encoding 'UTF-8'
+[4320] bbl.pm:763> INFO - Output to Crepin_MEDEHOUIN.bbl
+[4320] Biber.pm:131> WARN - Duplicate entry key: 'bourgi2020greater' in file 'bibliography.bib', skipping ...
+[4320] Biber.pm:131> WARN - Duplicate entry key: 'palich2021traitement' in file 'bibliography.bib', skipping ...
+[4320] Biber.pm:131> WARN - legacy month field 'oct' in entry 'Venter2020' is not an integer - this will probably not sort properly.
+[4320] Biber.pm:133> INFO - WARNINGS: 3

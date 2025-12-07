@@ -1,0 +1,117 @@
+---
+title: "Your Thesis Title"
+author: "Your Name"
+documentclass: memoir
+fontsize: 12pt
+classoption: a4paper,11pt,leqno,openbib,oldfontcommands,openany
+output: 
+  pdf_document:
+    includes:
+      in_header: './header.tex'
+    keep_tex: true
+    toc: true
+    toc_depth: 4
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+test
+
+
+```{=tex}
+
+%\title{University of Bristol Thesis Template}
+\RequirePackage[l2tabu]{nag}		% Warns for incorrect (obsolete) LaTeX usage
+%
+%
+
+% Memoir class loads useful packages by default (see manual).
+%\documentclass[a4paper,11pt,leqno,openbib,oldfontcommands, openany]{memoir} %add 'draft' to turn draft option on (see below)
+
+	% UoB guidlines:
+
+	
+	% 
+	\frontmatter
+	\pagenumbering{roman}
+	%
+	\input{frontmatter/title}
+	%
+	\input{frontmatter/titlepage}
+	%
+	\input{frontmatter/dedicace}
+	%
+	\input{frontmatter/declaration}
+	%
+	\input{frontmatter/dedication}
+	%
+%	\clearemptydoublepage
+	\input{frontmatter/avantpropos}
+	\newpage 
+	\renewcommand{\contentsname}{SOMMAIRE}
+	\maxtocdepth{chapter}
+	\tableofcontents
+	\input{frontmatter/single}
+	%
+	\newpage
+	\renewcommand{\listtablename}{LISTE DES TABLEAUX}
+	\listoftables
+	\addtocontents{lot}{}
+	%
+	\newpage
+	\renewcommand{\listfigurename}{LISTE DES FIGURES}
+	\listoffigures
+	\addtocontents{lof}{}
+	\newpage
+	%
+	\input{frontmatter/resume}
+	%
+	
+	\input{frontmatter/abstract}
+	% The bulk of the document is delegated to these chapter files in
+	% subdirectories.
+%	\input{frontmatter/	presentation_de_structure}
+		\input{frontmatter/structure}
+
+	\newpage 
+	\clearemptydoublepage
+	\pagenumbering{arabic}
+\mainmatter
+% Réinitialisation explicite après le début du corps principal
+\setcounter{figure}{0}
+\setcounter{table}{0}
+\import{chapters/}{Introduction.tex}
+
+	\import{chapters/chapter01/}{Revue_litterature.tex}
+	\newpage
+	\import{chapters/Chapter02/}{Donnee_Methodologie.tex}
+	\newpage
+%	\import{chapters/Chapter03/}{Descriptible.tex}
+%	\newpage
+	\import{chapters/Chapter04/}{Resultats.tex}
+	\newpage
+	\import{chapters/}{Conclusion.tex}
+	%\include{chapters/Conclusion.tex}
+\newpage
+
+        \backmatter
+        \printbibliography[title={BIBLIOGRAPHIE}]  % Définit le titre directement
+	
+%	\clearemptydoublepage
+	%
+	
+%	\cleardoublepage
+	\pagenumbering{roman}
+\setcounter{page}{11}  % ← à définir manuellement (ex : xi = 11)
+
+
+	\import{chapters/appendices/}{AnnexeA.tex}
+%\import{chapters/appendices/}{AnnexeB.tex}
+	\newpage
+	\renewcommand{\contentsname}{TABLE DES MATIERES}
+	\setcounter{tocdepth}{4}
+	\tableofcontents
+```
+
